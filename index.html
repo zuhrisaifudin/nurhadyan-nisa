@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nurhadyan & Siti Chairun Nisa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lovus is responsive wedding html website template">
+    <meta name="keywords" content="wedding,couple,ceremony,reception,rsvp,gallery,event,countdown">
+    <meta name="author" content="">
+
+
+    <!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+
+    <!-- CSS Files
+    ================================================== -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/animsition.min.css" type="text/css">
+
+
+    <!-- custom background -->
+    <link rel="stylesheet" href="css/bg.css" type="text/css">
+
+    <!-- color scheme -->
+    <link rel="stylesheet" href="css/color.css" type="text/css" id="colors">
+</head>
+
+<body id="homepage">
+
+    <div id="wrapper">
+
+        <!-- header begin -->
+        <header>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- logo begin -->
+                        <div id="logo">
+                            <a href="index.html">
+                                <h2>Nurhadyan<span>&amp;</span>Chairun Nisa</h2>
+                            </a>
+                        </div>
+                        <!-- logo close -->
+
+                        <!-- small button begin -->
+                        <span id="menu-btn"></span>
+                        <!-- small button close -->
+
+                        <!-- mainmenu begin -->
+                        <nav>
+                            <ul id="mainmenu">
+                                <li><a href="index.html">Beranda</a></li>
+                                <li><a href="#section-hero">Sampul</a>
+                                <li><a href="#section-couple">Mempelai</a></li>
+                                <li><a href="#section-quote">Perintah</a></li>
+                                <li><a href="#section-event">Akad Nikah</a></li>
+                                <li><a href="#section-gallery">Galleri</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <!-- mainmenu close -->
+
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+
+        <!-- content begin -->
+        <div id="content" class="no-bottom no-top">
+
+            <!-- rsvp popup begin -->
+            <div id="popup-box" class="full-height">
+                <span class="btn-close">
+					<i class="icon_close"></i>
+				</span>
+
+                <div class="container center-y">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="deco id-color"><span>Kami Mengundang</span></h2>
+                            <h2 data-wow-delay=".2s">Sabtu, 12 Desember 2020</h2>
+                        </div>
+
+                        <div class="spacer-double"></div>
+
+                        <div class="col-md-5 col-md-offset-1 text-right">
+                            <h3>Akad Nikah</h3>
+                            08:00 - 10:00 PM<br>Jl Raya Condet No 50 Kramat Jati <br>
+                        </div>
+
+                        <div class="col-md-5">
+                            <h3>Wedding Reception</h3>
+                            10:00 PM - 13:00 PM<br> Jl Raya Condet No 50 Kramat Jati <br>
+                        </div>
+
+                        <div class="spacer-double"></div>
+
+                        <form name="rsvp" id='rsvp' class="form-underline" method="post" action="rsvp.php">
+
+                            <div class="col-md-3">
+                                <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
+                            </div>
+
+                            <div class="col-md-3">
+                                <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
+                            </div>
+
+                            <div class="col-md-3">
+                                <select id="guest" name="guest" size="1" class="form-control">
+								  <option value="" disabled selected>Guests</option>
+								  <option>1</option>
+								  <option>2</option>
+								  <option>3</option>
+								</select>
+                            </div>
+
+                            <div class="col-md-3">
+                                <select id="attend" name="attend" size="1" class="form-control">
+								  <option value="" disabled selected>Are you attending?</option>
+								  <option>yes</option>
+								  <option>no</option>
+								</select>
+                            </div>
+
+                            <div class="col-md-12 text-center">
+                                <div class="spacer-single"></div>
+                                <input type='submit' id='submit' value='Submit' class="btn btn-custom">
+								<div id='mail_success' class='success'>Your message has been sent successfully.</div>
+								<div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+                            </div>
+
+                        </form>
+
+                        <div class="spacer-single"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- rsvp popup close -->
+
+            <!-- section begin -->
+            <section id="section-hero" class="full-height relative z1 owl-slide-wrapper no-top no-bottom text-light" data-stellar-background-ratio=".2">
+                <div class="owl-slider-nav">
+                    <div class="next"></div>
+                    <div class="prev"></div>
+                </div>
+
+                <div class="center-y fadeScroll relative" data-scroll-speed="4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="row">
+                                    <div class="spacer-single"></div>
+                                    <div class="col-md-5 text-right text-center-sm relative">
+                                        <h2 class="name">Nurhadyan</h2>
+                                    </div>
+                                    <div class="col-md-2 text-center">
+                                        <span class="deco-big" data-scroll-speed="2">&amp;</span>
+                                    </div>
+                                    <div class="col-md-5 text-left text-center-sm relative">
+                                        <h2 class="name">Nisa</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="custom-owl-slider" class="owl-slide" data-scroll-speed="2">
+                    <div class="item">
+                        <img src="images/slider/1.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/slider/2.png" alt="">
+                    </div>
+                     <div class="item">
+                        <img src="images/slider/3.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+
+
+            <!-- section begin -->
+            <section id="section-couple" class="no-top">
+                <div class="container relative mt-60 z-index">
+                    <div class="row">
+
+                        <div class="col-md-5 col-md-offset-1 text-center">
+                            <img src="images/ikwan.png" alt="" class="img-responsive img-rounded wow fadeInLeft" data-wow-delay=".2s" />
+                            <div class="padding40">
+                                <h2>Nurhadyan</h2>
+                                 <p>
+                                    Anak Ke 1</br>
+                                    Bapak Kadarusman</br>
+                                    Ibu Yusrina
+                                </p>
+                                <!-- social icons -->
+                                <div class="social-icons-sm">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-rss"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                </div>
+                                <!-- social icons close -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 text-center">
+                            <img src="images/akwat.png" alt="" class="img-responsive img-rounded wow fadeInRight" data-wow-delay=".2s" />
+                            <div class="padding40">
+                                <h2>Chairun Nisa</h2>
+                                <p>
+                                    Anak Tunggal</br>
+                                    Bapak Saf Djoemani</br>
+                                    Ibu Herni Rohaeni
+                                </p>
+                                <!-- social icons -->
+                                <div class="social-icons-sm">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-rss"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i></a>
+                                </div>
+                                <!-- social icons close -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-md-offset-5 text-center absolute">
+                            <span class="circle wow zoomIn" data-wow-delay=".8s">
+								<i class="fa fa-heart"></i>
+							</span>
+                        </div>
+
+
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- section close -->
+
+            <!-- section begin -->
+            <section id="section-quote" aria-label="section-quote-1" class="text-light" data-stellar-background-ratio=".2">
+                <div class="container">
+                    <div class="row wow fadeInUp">
+                        <div class="col-md-12">
+                            <blockquote class="very-big text-light wow fadeIn">
+                                
+"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu merasa tenang dan tentram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."
+
+                                <span>(QS. Ar-Rum: 21)</span>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+
+            <!-- section begin -->
+            <section aria-label="section" class="no-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="deco id-color"><span>Rangkaian Acara</span></h2>
+                            <h2 data-wow-delay=".2s">Sabtu, 12 Desember 2020</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+
+            <!-- section begin -->
+            <section id="section-event">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/background/akadnikah.png" alt="" class="img-responsive img-rounded wow fadeInLeft">
+                        </div>
+
+                        <div class="col-md-5 col-md-offset-1 pt40 pb40 wow fadeIn" data-wow-delay=".5s">
+                            <h3>Akad Nikah</h3>
+                            Sabtu, 12 Desember 2020<br> 09:30 - 11:30 WIB<br> Ajwad Restaurant<br>
+                            <a href="https://g.page/ajwadresto?share"
+                                class="btn btn-custom mt30" target="_blank">View on map</a>
+                        </div>
+                    </div>
+
+                    <div class="spacer-double"></div>
+
+                    <div class="row">
+                        <div class="col-md-5 pt40 pb40 text-right wow fadeIn" data-wow-delay=".5s">
+                            <h3>Resepsi </h3>
+                            Sabtu, 12 Desember 2020<br> 09:30 - 11:30 WIB<br> Ajwad Restauran<br>
+                            <a href="https://g.page/ajwadresto?share"
+                                class="btn btn-custom mt30" target="_blank">View on map</a>
+                        </div>
+
+                        <div class="col-md-6 col-md-offset-1">
+                            <img src="images/background/resepsi.png" alt="" class="img-responsive img-rounded wow fadeInRight">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section close -->
+
+             <section id="section-countdown" aria-label="section-countdown" class="pt60 pb60 text-light" data-stellar-background-ratio=".2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h3>Hitung Mundur Acara Akad Nikah</h3>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="spacer-double"></div>
+                            <div id="defaultCountdown" class="wow fadeIn"></div>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-gallery">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2></h2>
+                            <div class="spacer-single"></div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="de_tab tab_style_3 text-center">
+                                <ul class="de_nav">
+                                    <li class="active" data-link="#section-services-tab"><span>Resepsi</span></li>
+                                    <li data-link="#section-services-tab"><span>Menu</span></li>
+                                </ul>
+
+                                <div class="de_tab_content">
+
+                                    <div id="tab1" class="tab_single_content">
+                                        <div class="row">
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/background/ajwad1.png">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/background/ajwad1.png" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/background/ajwad2.pngg">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/background/ajwad2.png" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/background/ajwad3.png">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/background/ajwad3.png" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/background/ajwad4.png">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/background/ajwad4.png" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/background/ajwad5.png">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/background/ajwad5.png" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/background/ajwad6.png">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/background/ajwad6.png" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+
+                                    <div id="tab2" class="tab_single_content">
+                                        <div class="row">
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/gallery/1.png">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/gallery/1.png" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/gallery/2.png">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/gallery/2.png" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/gallery/3.png">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/gallery/3.png" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/gallery/category-3/4.jpg">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/gallery/category-3/4.jpg" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/gallery/category-3/5.jpg">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/gallery/category-3/5.jpg" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="col-md-4 text-center mb10">
+                                                <figure class="picframe img-rounded mb20">
+                                                    <a class="image-popup" href="images/gallery/category-3/6.jpg">
+														<span class="overlay-v">
+															<i></i>
+														</span>
+													</a>
+                                                    <img src="images/gallery/category-3/6.jpg" class="img-responsive img-rounded" alt="">
+                                                </figure>
+                                            </div>
+
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <!-- content close -->
+
+        <!-- footer begin -->
+        <footer>
+            <div class="container text-center text-light">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="hs1 wow fadeInUp">Nurhadyan<span>&amp;</span>Chairun Nisa</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subfooter">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            &copy; Copyright 2019 - Belain Media
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+
+        <a href="#" id="back-to-top"></a>
+        <div id="preloader">
+            <div class="preloader1"></div>
+        </div>
+    </div>
+	
+	<audio loop="loop" autoplay="autoplay">
+		<source src="music/filenikah.mp3" type="audio/mpeg" />
+	</audio>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/validation-rsvp.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.plugin.js"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script src="js/countdown-custom.js"></script>
+    <script src="js/animsition.min.js"></script>
+    <script src="js/designesia.js"></script>
+
+</body>
+
+</html>
