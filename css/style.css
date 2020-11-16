@@ -2061,7 +2061,7 @@ span.teaser {
 	color: rgba(255, 255, 255, 0.1) !important;
 }
 .text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6 {
-	color: #fff !important;
+	/*color: #fff !important;*/
 }
 .de_light h1, .de_light h2, .de_light h3, .de_light h4, .de_light h5, .de_light h6 {
 	color: #626570;
@@ -6611,7 +6611,10 @@ a, img {
     height: 70px;
     margin-right: 30px;
 }
-}
 .adab-list > div {
     text-align: left;
+}
+
+.name {
+    color: #3cb6e2 !important;
 }
